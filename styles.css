@@ -1,0 +1,94 @@
+/*Establecemos el relleno y el margen de todos los elementos 
+en 0 y establece la fuente*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial';
+}
+
+/*Establecemos el ancho de todos los elementos*/
+img{
+    width: 150px;}
+
+/*Establecemos la imagen de fondo con su respectivos estilos*/    
+body {
+    background-image: url(img/fondo.png);
+    backdrop-filter: blur(5px);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1800px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*Establecemos el relleno superior de los elementos h1*/
+h1 {
+    padding-top: 1%;
+    color: rgb(14, 1, 34);
+}
+
+/*Establecemos el color de las lineas horizontales hr*/
+hr {
+    color: rgb(0, 0, 0);
+}
+
+/*Establecemos el color del texto de los elementos form*/
+form {
+    color: rgb(0, 0, 0);
+}
+
+/*Establecemos el color del texto de los elementos form y tbody*/
+form,
+tbody {
+    color: rgb(255, 255, 255);
+}
+
+/*Establecemos el color del texto de los elementos form y thead*/
+form,
+thead {
+    color: rgb(27, 0, 43);
+}
+
+/*Establecemos que los elementos "a" dentro de los elementos form no tengan 
+decoracion de texto y establece el color del texto*/
+form,
+a {
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+}
+
+form,
+a:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+/*Establecemos el color del texto del elemento con el id "negrita"*/
+#negrita {
+    color: rgb(0, 0, 0);
+}
+
+/*Establecemos el color del texto de los elementos textarea*/
+textarea {
+    color: rgb(255, 255, 255) !important;
+    resize: none;
+}
+
+/*Establecemos el radio de borde del elemento con el id "card" y
+tambien establecemos el color del texto de los elementos con el id "card" y los elementos <p>*/
+#card {
+    border-radius: 10px;
+}
+
+#card, p{
+    color: rgb(255, 254, 254);
+}
+
+#card img{
+    width: 60px;
+    margin: auto;
+}
+
+#card h5{
+    padding-top: 10px;
+}
